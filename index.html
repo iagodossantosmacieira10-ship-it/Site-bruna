@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bruna Macieira | Pedagoga e Psicopedagoga</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f1ed;
+            color: #17283b;
+        }
+
+        /* TOPO */
+
+        header {
+            background-color: white;
+            padding: 60px 10%;
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        header img {
+            width: 230px;
+            height: 230px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 6px solid #e6b991;
+        }
+
+        .apresentacao h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        .apresentacao h2 {
+            font-size: 40px;
+            font-weight: normal;
+            color: #c9875a;
+            margin-bottom: 15px;
+        }
+
+        .apresentacao p {
+            font-size: 18px;
+            letter-spacing: 3px;
+            font-weight: bold;
+        }
+
+
+        /* CONTEÚDO PRINCIPAL */
+
+        main {
+            max-width: 1100px;
+            margin: 50px auto;
+            padding: 0 25px;
+        }
+
+
+        /* SEÇÕES */
+
+        section {
+            background-color: white;
+            padding: 35px;
+            margin-bottom: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        section h2 {
+            color: #17283b;
+            font-size: 27px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #e6b991;
+            padding-bottom: 10px;
+        }
+
+        section p {
+            font-size: 17px;
+            line-height: 1.8;
+        }
+
+
+        /* CONTATO */
+
+        .contatos {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .contato {
+            background-color: #f8f3ee;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .contato h3 {
+            margin-bottom: 8px;
+            color: #c9875a;
+        }
+
+
+        /* FORMAÇÃO */
+
+        .formacao {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .card {
+            padding: 25px;
+            background-color: #f8f3ee;
+            border-radius: 10px;
+            border-left: 5px solid #c9875a;
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 15px;
+        }
+
+
+        /* LISTAS */
+
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 15px;
+            font-size: 17px;
+            line-height: 1.5;
+        }
+
+
+        /* BOTÃO */
+
+        .botao {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 14px 25px;
+            background-color: #17283b;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .botao:hover {
+            background-color: #c9875a;
+        }
+
+
+        /* RODAPÉ */
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #17283b;
+            color: white;
+        }
+
+
+        /* CELULAR */
+
+        @media (max-width: 700px) {
+
+            header {
+                flex-direction: column;
+                text-align: center;
+                padding: 40px 20px;
+            }
+
+            header img {
+                width: 180px;
+                height: 180px;
+            }
+
+            .apresentacao h1 {
+                font-size: 30px;
+            }
+
+            .apresentacao h2 {
+                font-size: 30px;
+            }
+
+            .contatos,
+            .formacao {
+                grid-template-columns: 1fr;
+            }
+
+            section {
+                padding: 25px;
+            }
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+
+    <!-- CABEÇALHO -->
+
+    <header>
+
+        <img src="foto.jpg" alt="Foto de Bruna Macieira">
+
+        <div class="apresentacao">
+
+            <h1>Bruna Roberta Pinto dos Santos Macieira</h1>
+
+            <p>PEDAGOGA / PSICOPEDAGOGA</p>
+
+            <a href="#contato" class="botao">
+                Entre em contato
+            </a>
+
+        </div>
+
+    </header>
+
+
+
+    <main>
+
+
+        <!-- OBJETIVO -->
+
+        <section>
+
+            <h2>Objetivo</h2>
+
+            <p>
+                Ter a oportunidade de juntamente com uma equipe
+                multidisciplinar identificar dificuldades cognitivas,
+                emocionais e sociais do paciente, desenvolver e criar
+                estratégias personalizadas, propondo soluções que
+                promovam o aprendizado e a socialização de forma
+                significativa.
+            </p>
+
+        </section>
+
+
+
+        <!-- CONTATO -->
+
+        <section id="contato">
+
+            <h2>Contato</h2>
+
+            <div class="contatos">
+
+                <div class="contato">
+
+                    <h3>E-mail</h3>
+
+                    <p>
+                        psicobrunamacieira@gmail.com
+                    </p>
+
+                </div>
+
+
+                <div class="contato">
+
+                    <h3>Telefone</h3>
+
+                    <p>
+                        (21) 97915-8942
+                    </p>
+
+                </div>
+
+
+                <div class="contato">
+
+                    <h3>Localização</h3>
+
+                    <p>
+                        Rocha Miranda - RJ
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- FORMAÇÃO -->
+
+        <section>
+
+            <h2>Formação Acadêmica</h2>
+
+            <div class="formacao">
+
+                <div class="card">
+
+                    <h3>Ensino Médio</h3>
+
+                    <p>
+                        Formação de Professores.
+                    </p>
+
+                </div>
+
+
+                <div class="card">
+
+                    <h3>Graduação</h3>
+
+                    <p>
+                        Pedagogia.
+                    </p>
+
+                </div>
+
+
+                <div class="card">
+
+                    <h3>Pós-Graduação</h3>
+
+                    <p>
+                        Psicopedagogia Clínica.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- HISTÓRICO PROFISSIONAL -->
+
+        <section>
+
+            <h2>Histórico Profissional</h2>
+
+            <ul>
+
+                <li>
+                    Professora de Educação Infantil.
+                </li>
+
+                <li>
+                    Professora dos Anos Iniciais do Ensino Fundamental.
+                </li>
+
+                <li>
+                    Professora de aulas de apoio para alunos com
+                    dificuldade de aprendizagem.
+                </li>
+
+                <li>
+                    Atendimento aos responsáveis.
+                </li>
+
+                <li>
+                    Atendimento aos terapeutas.
+                </li>
+
+                <li>
+                    Psicopedagoga clínica.
+                </li>
+
+            </ul>
+
+        </section>
+
+
+
+        <!-- ATIVIDADES -->
+
+        <section>
+
+            <h2>Atividades Complementares</h2>
+
+            <ul>
+
+                <li>
+                    Mediação escolar.
+                </li>
+
+                <li>
+                    Educação especial e inclusiva.
+                </li>
+
+                <li>
+                    Teoria e prática na Alfabetização e Letramento.
+                </li>
+
+                <li>
+                    Transtornos globais do desenvolvimento.
+                </li>
+
+                <li>
+                    Plano Educacional Individualizado na prática.
+                </li>
+
+                <li>
+                    Terapeuta ABA (Análise do Comportamento Aplicada).
+                </li>
+
+                <li>
+                    Especialista em Alfabetização.
+                </li>
+
+            </ul>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- RODAPÉ -->
+
+    <footer>
+
+        <p>
+             2026 Iago Macieira - Desenvolvedor <!DOCTYPE html>
+             <html lang="en">
+             <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Document</title>
+             </head>
+             <body>
+                
+             </body>
+             </html>
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
